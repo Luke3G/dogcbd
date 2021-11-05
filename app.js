@@ -36,7 +36,7 @@ console.log(dayNumber);
 //storing my output location//
 const element=document.getElementById("message1")
 
-//Display A diffrent message every day//
+//Display A diffrent message every day for dog cbd//
 
 function specail () {
     if (dayNumber==1){
@@ -57,3 +57,23 @@ function specail () {
 }
 console.log('you got a' + specail ());
 element.innerHTML='Check out The Specital Today' + '</br>' + specail();
+
+//for grade excercise//
+
+function assignGrade(score){
+if(score > 90) {
+    return 'A';
+}else if(score > 80 || score < 90) {
+    return 'B';
+}else if(score > 70 || score < 80){
+    return 'C';
+}else if(score > 60 || score < 70){
+    return 'D';
+}else {
+    return 'F';
+}
+}
+
+console.log(`You got a` + assignGrade(95))
+console.log(`You got a` + assignGrade(68))
+console.log(`You got a` + assignGrade(22))
