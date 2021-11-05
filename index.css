@@ -6,4 +6,20 @@ header{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     cursor: alias;
+    border: black solid; 
+}
+
+div#message1{
+    background-color: maroon;
+    height: 50px;
+    padding: 15px 5px;
+    text-align: center;
+}
+
+div.showme{
+    display: block;
+}
+
+div.hideme{
+    display: none;
 }
