@@ -30,8 +30,25 @@ else { console.log("uh-oh!")
 
 const today= new Date();
 console.log(today);
+//returns the current day in number form//
 const dayNumber= today.getDay();
 console.log(dayNumber);
+//storing my output location//
 const element=document.getElementById("message1")
 
-
+function specail () {
+    if (dayNumber==1){
+    return '1/2 off all oils';
+} else if (dayNumber == 2) {
+    return '2-for-1 treats';
+} else if (dayNumber == 3) {
+    return 'buy one get on';
+} else if (dayNumber == 4) {
+    return '2 for 1';
+} else if (dayNumber == 5) {
+    return 'bring a friend';
+} else if (dayNumber == 6) {
+    return 'Buy two edibles get one free'
+} else if (dayNumber == 7) {
+    return 'Brunch and free samples'
+} 
