@@ -36,6 +36,8 @@ console.log(dayNumber);
 //storing my output location//
 const element=document.getElementById("message1")
 
+//Display A diffrent message every day//
+
 function specail () {
     if (dayNumber==1){
     return '1/2 off all oils';
@@ -51,4 +53,7 @@ function specail () {
     return 'Buy two edibles get one free'
 } else if (dayNumber == 7) {
     return 'Brunch and free samples'
-} 
+} else (element.classList.add("hideme"))
+}
+console.log('you got a' + specail ());
+element.innerHTML='Check out The Specital Today' + '</br>' + specail();
