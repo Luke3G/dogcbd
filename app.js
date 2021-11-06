@@ -78,3 +78,11 @@ console.log(`You got  ` + assignGrade(95));
 console.log(`You got  ` + assignGrade(68));
 console.log(`You got  ` + assignGrade(22));
 console.log(`You got  ` + assignGrade(78));
+
+var yourAge = window.prompt("Please Enter Your Age: ")
+  if (yourAge < 13)
+   window.alert("You are" + " " + yourAge + " " + "years old, you must be at least 18 to visit this site!");
+  if (yourAge >= 13)
+   window.alert("You are" + " " + yourAge + " " + "Thank You For Choosing Dog CBD Treats!");
+  if (yourAge < 18)
+   location.href = ("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
