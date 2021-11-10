@@ -86,3 +86,29 @@ var yourAge = window.prompt("Please Enter Your Age: ")
    window.alert("You are" + " " + yourAge + " " + "Thank You For Choosing Dog CBD Treats!");
   if (yourAge < 18)
    location.href = ("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+
+//switch, case, break//
+
+   switch (new Date().getDay()) {
+    case 0:
+      day = "Sunday";
+      break;
+    case 1:
+      day = "Monday";
+      break;
+    case 2:
+       day = "Tuesday";
+      break;
+    case 3:
+      day = "Wednesday";
+      break;
+    case 4:
+      day = "Thursday";
+      break;
+    case 5:
+      day = "Friday";
+      break;
+    case 6:
+      day = "Saturday";
+  }
+  document.getElementById("demo").innerHTML = "Today is " + day;
