@@ -182,3 +182,84 @@ for (var i = 0; i < choices.length; i++) {
     }
     console.log('My ' + choiceNum + choiceNumSuffix + ' choice is ' + choices[i]);
 }
+
+//object literal//
+var sibling= {
+    name: "Mark",
+    age: 21,
+    single: false,
+    children: false,
+    order: "younger"
+};
+
+sibling.single=true;
+sibling.gender="male";
+delete sibling.age;
+
+
+var meeting= sibling.name + sibling.age + sibling.single + sibling.gender;
+
+console.log(meeting);
+
+document.getElementById("demo").innerHTML= sibling.name;
+
+//new kewword setting the values//
+
+// var sibling= new Object();
+// sibling.name="Mark";
+// sibling.age= 21;
+// sibling.single= false;
+// sibling.children=false;
+// sibling.order="younger";
+
+
+const recipe= {
+    title: "mole",
+    serving: 2,
+    ingredients: ['cumin ', 'cinnamon', 'cocoa']
+};
+document.getElementById('title').innerHTML='Title:' + recipe.title;
+document.getElementById('serving').innerHTML='ServingSize:' + recipe.serving;
+document.getElementById('ingredients').innerHTML='ingredients' + recipe.ingredients;
+
+for(var i=0; i<recipe.ingredients.length; i++)
+
+console.log(`${recipe.ingredients[i]}`);
+
+//Reading List//
+
+var books = [
+    {
+     title: 'To Kill a Mockingbird',
+     author: 'Harper Lee',
+     alreadyRead: true
+    },
+    {
+      title: 'The Great Gatsby',
+      author: 'F. Scott Fitzgerald',
+      alreadyRead: true
+    },
+    {
+      title: 'The Catcher in the Rye',
+      author: 'J. D. Salinger',
+      alreadyRead: true
+    },
+    {
+      title: 'Watchmen',
+      author: 'Alan Moore , Dave Gibbons',
+      alreadyRead: false
+    }
+    ];
+  
+  for (var i = 0; i < books.length;  i++) {
+    var book = books[i];
+    var bookInfo = book.title + " by " + book.author;
+    if(book.alreadyRead) {
+      console.log('Was Read ' + bookInfo);
+    } else {
+      console.log('I need to read ' + bookInfo);
+    }
+    
+  }
+
+
