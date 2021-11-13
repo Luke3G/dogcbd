@@ -262,4 +262,11 @@ var books = [
     
   }
 
+  //car dealership//
+
+  var caddy = {
+      make: "Ford",
+      model: "Mustang"
+
+  }
 
