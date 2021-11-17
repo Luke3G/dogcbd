@@ -262,66 +262,66 @@
     
 // //   }
 
-// //   //car dealership//
+  //car dealership//
 
-// //   var Ford = {
-// //       make: "Ford",
-// //       model: "Mustang",
-// //       year: 1979,
-// //       available: true,
-// //       description: "Ford's initiative to build a one-size-fits-all car to serve as a two-door sports car and a four-door family car"
-// //   }
+  var Ford = {
+      make: "Ford",
+      model: "Mustang",
+      year: 1979,
+      available: true,
+      description: "Ford's initiative to build a one-size-fits-all car to serve as a two-door sports car and a four-door family car"
+  }
   
-// //   function display() {
-// //     var place= document.getElementById("submit");
+  function display() {
+    var place= document.getElementById("submit");
    
-// //     for (value in Ford) {
-// //       place.innerHTML = "Make: " + Ford.make + "<br>" +
-// //       "Model: " + Ford.model + "<br>" +
-// //       "Year: " + Ford.year + "<br>" +
-// //       "Available: " + Ford.available + "<br>" +
-// //       "About: " + Ford.description;
-// //     }
-// //   };
+    for (value in Ford) {
+      place.innerHTML = "Make: " + Ford.make + "<br>" +
+      "Model: " + Ford.model + "<br>" +
+      "Year: " + Ford.year + "<br>" +
+      "Available: " + Ford.available + "<br>" +
+      "About: " + Ford.description;
+    }
+  };
 
-// //   var chevy = {
-// //     make: "Chevy",
-// //     model: "Camaro",
-// //     year: 2020,
-// //     available: true,
-// //     description: "The 2020 Chevrolet Camaro is a great sports car, and it's a real pleasure to drive."
-// // }
-// // function display2() {
-// //   var place= document.getElementById("submit2");
+  var chevy = {
+    make: "Chevy",
+    model: "Camaro",
+    year: 2020,
+    available: true,
+    description: "The 2020 Chevrolet Camaro is a great sports car, and it's a real pleasure to drive."
+}
+function display2() {
+  var place= document.getElementById("submit2");
  
-// //   for (value in Ford) {
-// //     place.innerHTML = "Make: " + chevy.make + "<br>" +
-// //     "Model: " + chevy.model + "<br>" +
-// //     "Year: " + chevy.year + "<br>" +
-// //     "Available: " + chevy.available + "<br>" +
-// //     "About: " + chevy.description;
-// //   }
-// // };
+  for (value in Ford) {
+    place.innerHTML = "Make: " + chevy.make + "<br>" +
+    "Model: " + chevy.model + "<br>" +
+    "Year: " + chevy.year + "<br>" +
+    "Available: " + chevy.available + "<br>" +
+    "About: " + chevy.description;
+  }
+};
 
-// // var dodge = {
-// //   make: "Dodge",
-// //   model: "Challenger",
-// //   year: 2022,
-// //   available: true,
-// //   description: "The 2022 Challenger also received the same reliability rating. The organization says three out of five is about average for reliability."
-// // }
+var dodge = {
+  make: "Dodge",
+  model: "Challenger",
+  year: 2022,
+  available: true,
+  description: "The 2022 Challenger also received the same reliability rating. The organization says three out of five is about average for reliability."
+}
 
-// // function display3() {
-// // var place= document.getElementById("submit3");
+function display3() {
+var place= document.getElementById("submit3");
 
-// // for (value in Ford) {
-// //   place.innerHTML = "Make: " + dodge.make + "<br>" +
-// //   "Model: " + dodge.model + "<br>" +
-// //   "Year: " + dodge.year + "<br>" +
-// //   "Available: " + dodge.available + "<br>" +
-// //   "About: " + dodge.description;
-// // }
-// // };
+for (value in Ford) {
+  place.innerHTML = "Make: " + dodge.make + "<br>" +
+  "Model: " + dodge.model + "<br>" +
+  "Year: " + dodge.year + "<br>" +
+  "Available: " + dodge.available + "<br>" +
+  "About: " + dodge.description;
+}
+};
 
 
 // //Create two objects One with your current pet and one with a past pet//
